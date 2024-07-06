@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Practice</title>
+  <style>
+    #container h1{
+      text-align: center;
+      color: black;
+      font-family: Arial;
+    }
+
+    #slider_container{
+      width: 920px;
+      height: 440px;
+      margin: auto;
+      position: relative;
+    }
+
+    .sliderItems{
+      position: absolute;
+      opacity: 0;
+      transition: all 3s;
+    }
+
+    .slide{
+      opacity: 1;
+    }
+
+    .sliderItems img{
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+
+ <div id="container">
+  <h1>DESKTOP BACKGROUND SLIDER</h1>
+  <div id="slider_container">
+    <div class="sliderItems slide"><img src="slider_1.png" alt=""></div>
+    <div class="sliderItems"><img src="slider_2.png" alt=""></div>
+    <div class="sliderItems"><img src="slider_3.png" alt=""></div>
+    <div class="sliderItems"><img src="slider_4.png" alt=""></div>
+  </div>
+ </div>
+
+  <script type="text/javascript" src="app.js"></script>
+</body>
+</html>
